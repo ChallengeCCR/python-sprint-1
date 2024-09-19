@@ -1,0 +1,29 @@
+#menuV{
+    list-style-type: none;
+    background-color: #ff7e3e71;
+    width: 150px;
+    height: 245px;
+    padding: 0px; /* padding - formatação das margens interna de um elemento */
+}
+
+#menuV li{
+    height: 40px;
+    line-height: 40px;
+    /* margin-left: 20px; margin - margens externas */ 
+    border-bottom: 1px solid #FFF6E9;
+}
+
+#menuV li a{
+    text-decoration: none;
+    color: #604CC3;
+    border-left: 5px solid #80C4E9;
+    padding-left: 20px;
+    display: block;
+
+}
+
+#menuV li a:hover{ /* hover - Hand Over - passar a mão em cima */
+    background-color: #ff7e3e96;
+    border-left: 5px solid #c1325d;
+    color: #c1325d;
+}

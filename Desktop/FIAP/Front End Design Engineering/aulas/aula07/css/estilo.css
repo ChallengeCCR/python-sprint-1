@@ -1,0 +1,38 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+#wrapper{
+    width: 100%;
+    height: 3000px;
+    background-color: #336699;
+}
+#cabecalhoPrincipal{
+    width: 100%;
+    height: 140px;
+    background-color:bisque;
+}
+#perfil{
+    width: 100%;
+    height: 20px;
+    background-color: #921d09;
+}
+.content{
+    width:calc(100% - 100px);
+}
+#linksPerfil{
+    text-align: right;
+    color:#fff;
+    font-size: 13px;
+    line-height: 20px;
+}
+#linksPerfil a{
+    color:#fff;
+    text-decoration: none;
+}
+#logo{
+    margin-top: 10px;
+}
+#logo img{
+    width: 100px;
+}
