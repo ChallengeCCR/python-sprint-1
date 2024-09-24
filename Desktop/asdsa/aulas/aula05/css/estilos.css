@@ -1,0 +1,48 @@
+*{
+    margin: 0 auto;
+}
+
+#wrapper{
+    width: 1200px;
+    background-color: #0f996d;
+}
+
+header{
+    width: 1200px;
+    height: 150px;
+    background-color: #ff3ac4;
+}
+
+#carrossel{
+    width: 1200px;
+    height: 300px;
+    background-color: #ffe62a;
+}
+
+main{
+    background-color: #849f20;
+    margin-bottom: 20px;
+}
+
+/* 
+Externa: margin
+Interna: padding
+ */
+.quad{
+    width: 275px;
+    height: 275px;
+    background-color: #1a299b;
+    float: left; /* deixa um do lado do outro */
+    /* se basear no sentido do relógio, 
+            topo, direita, baixo e esquerda */
+    margin: 20px 0px 0px 20px;
+}
+
+footer{
+    width: 1200px;
+    height: 300px;
+    background-color: #501e80;
+    clear: both;
+    margin-top: 20px;
+}
+
