@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="699DB357-C71A-AD67-8C43-5692D373EA5B" name="UNIVERSIDADE">
+<createdBy>mateu</createdBy>
+<createdTime>2024-09-29 23:10:13 UTC</createdTime>
+<ownerDesignName>atividade1</ownerDesignName>
+<engineerTo>
+<item key="D0F51539-F676-30A2-7FDC-513A8A84A4DB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_universidade" id="446665CD-30D7-5F8C-089D-F85D88C81F0B">
+<createdBy>mateu</createdBy>
+<createdTime>2024-09-29 23:10:41 UTC</createdTime>
+<ownerDesignName>atividade1</ownerDesignName>
+<engineerTo>
+<item key="D0F51539-F676-30A2-7FDC-513A8A84A4DB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="C8E274BF-1105-98A6-E762-BA1B73DDC81B">
+<createdBy>mateu</createdBy>
+<createdTime>2024-09-29 23:10:50 UTC</createdTime>
+<ownerDesignName>atividade1</ownerDesignName>
+<engineerTo>
+<item key="D0F51539-F676-30A2-7FDC-513A8A84A4DB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="endereço" id="0C9E0EE4-A96C-F995-65FC-DC33C4938F55">
+<createdBy>mateu</createdBy>
+<createdTime>2024-09-29 23:10:52 UTC</createdTime>
+<ownerDesignName>atividade1</ownerDesignName>
+<engineerTo>
+<item key="D0F51539-F676-30A2-7FDC-513A8A84A4DB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="88243B1A-BB4D-BD7B-1EE1-F1FACC7B3261" name="UNIVERSIDADE PK">
+<createdBy>mateu</createdBy>
+<createdTime>2024-09-29 23:10:49 UTC</createdTime>
+<ownerDesignName>atividade1</ownerDesignName>
+<engineerTo>
+<item key="D0F51539-F676-30A2-7FDC-513A8A84A4DB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>446665CD-30D7-5F8C-089D-F85D88C81F0B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

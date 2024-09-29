@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F3496BDA-3745-85BF-9812-A204B1D0AFED" name="EMPRÉSTIMO">
+<createdBy>mateu</createdBy>
+<createdTime>2024-09-29 23:09:02 UTC</createdTime>
+<ownerDesignName>atividade1</ownerDesignName>
+<engineerTo>
+<item key="D0F51539-F676-30A2-7FDC-513A8A84A4DB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_emprestimo" id="8D82EBF2-30F0-8858-6918-1400306CCBD0">
+<createdBy>mateu</createdBy>
+<createdTime>2024-09-29 23:09:14 UTC</createdTime>
+<ownerDesignName>atividade1</ownerDesignName>
+<engineerTo>
+<item key="D0F51539-F676-30A2-7FDC-513A8A84A4DB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="disponibilidade" id="1954EEC0-7FB5-B07C-2C4B-80C3F45F445E">
+<createdBy>mateu</createdBy>
+<createdTime>2024-09-29 23:12:18 UTC</createdTime>
+<ownerDesignName>atividade1</ownerDesignName>
+<engineerTo>
+<item key="D0F51539-F676-30A2-7FDC-513A8A84A4DB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="aluno" id="932F0A91-3CAA-C9BF-FFC4-E6E86BE209C5">
+<createdBy>mateu</createdBy>
+<createdTime>2024-09-29 23:12:33 UTC</createdTime>
+<ownerDesignName>atividade1</ownerDesignName>
+<engineerTo>
+<item key="D0F51539-F676-30A2-7FDC-513A8A84A4DB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_livro" id="E6B76A62-F363-2A6C-0E97-4237213ADE80">
+<createdBy>mateu</createdBy>
+<createdTime>2024-09-29 23:18:53 UTC</createdTime>
+<generatorID>A1B4361A-CDDB-AF86-A2F6-B92FB11AFB91</generatorID>
+<ownerDesignName>atividade1</ownerDesignName>
+<engineerTo>
+<item key="D0F51539-F676-30A2-7FDC-513A8A84A4DB" value="true"/>
+</engineerTo>
+<referedAttribute>A77D9CB2-735E-6F6A-E38B-08CD6BF27B12</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_universidade" id="98A58941-1281-23A9-51ED-F6FEB70772D0">
+<createdBy>mateu</createdBy>
+<createdTime>2024-09-29 23:18:53 UTC</createdTime>
+<generatorID>A1B4361A-CDDB-AF86-A2F6-B92FB11AFB91</generatorID>
+<ownerDesignName>atividade1</ownerDesignName>
+<engineerTo>
+<item key="D0F51539-F676-30A2-7FDC-513A8A84A4DB" value="true"/>
+</engineerTo>
+<referedAttribute>FF75421E-8692-B4B9-1C16-4582AF3A1BE5</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

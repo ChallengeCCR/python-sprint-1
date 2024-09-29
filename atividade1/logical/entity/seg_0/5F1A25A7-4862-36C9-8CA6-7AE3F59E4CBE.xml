@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5F1A25A7-4862-36C9-8CA6-7AE3F59E4CBE" name="LIVRO">
+<createdBy>mateu</createdBy>
+<createdTime>2024-09-29 22:51:30 UTC</createdTime>
+<ownerDesignName>atividade1</ownerDesignName>
+<engineerTo>
+<item key="D0F51539-F676-30A2-7FDC-513A8A84A4DB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_livro" id="A77D9CB2-735E-6F6A-E38B-08CD6BF27B12">
+<createdBy>mateu</createdBy>
+<createdTime>2024-09-29 22:51:43 UTC</createdTime>
+<ownerDesignName>atividade1</ownerDesignName>
+<engineerTo>
+<item key="D0F51539-F676-30A2-7FDC-513A8A84A4DB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="título" id="41ED0D93-0AA3-622E-C609-57534BFCD374">
+<createdBy>mateu</createdBy>
+<createdTime>2024-09-29 22:56:26 UTC</createdTime>
+<ownerDesignName>atividade1</ownerDesignName>
+<engineerTo>
+<item key="D0F51539-F676-30A2-7FDC-513A8A84A4DB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="autor" id="A0E688A1-E7F1-630F-FC28-BA85FBF7B3FA">
+<createdBy>mateu</createdBy>
+<createdTime>2024-09-29 22:56:38 UTC</createdTime>
+<ownerDesignName>atividade1</ownerDesignName>
+<engineerTo>
+<item key="D0F51539-F676-30A2-7FDC-513A8A84A4DB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ano_publicacao" id="A08CB86C-3674-0C21-AAD0-E1E19CA90748">
+<createdBy>mateu</createdBy>
+<createdTime>2024-09-29 22:56:51 UTC</createdTime>
+<ownerDesignName>atividade1</ownerDesignName>
+<engineerTo>
+<item key="D0F51539-F676-30A2-7FDC-513A8A84A4DB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo" id="E398F52C-BE39-370D-F966-037C5579658B">
+<createdBy>mateu</createdBy>
+<createdTime>2024-09-29 22:57:01 UTC</createdTime>
+<ownerDesignName>atividade1</ownerDesignName>
+<engineerTo>
+<item key="D0F51539-F676-30A2-7FDC-513A8A84A4DB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descricao" id="C2F8EA58-DDFE-D92D-A543-383E884C59DF">
+<createdBy>mateu</createdBy>
+<createdTime>2024-09-29 22:57:04 UTC</createdTime>
+<ownerDesignName>atividade1</ownerDesignName>
+<engineerTo>
+<item key="D0F51539-F676-30A2-7FDC-513A8A84A4DB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_universidade" id="FF75421E-8692-B4B9-1C16-4582AF3A1BE5">
+<createdBy>mateu</createdBy>
+<createdTime>2024-09-29 23:18:36 UTC</createdTime>
+<generatorID>330E6688-23E2-CCB0-4245-033420EFE237</generatorID>
+<ownerDesignName>atividade1</ownerDesignName>
+<engineerTo>
+<item key="D0F51539-F676-30A2-7FDC-513A8A84A4DB" value="true"/>
+</engineerTo>
+<referedAttribute>446665CD-30D7-5F8C-089D-F85D88C81F0B</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5EE2CD3B-43B1-FB7D-8439-1C341EEDF957" name="Acervo PK">
+<createdBy>mateu</createdBy>
+<createdTime>2024-09-29 22:56:21 UTC</createdTime>
+<ownerDesignName>atividade1</ownerDesignName>
+<engineerTo>
+<item key="D0F51539-F676-30A2-7FDC-513A8A84A4DB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A77D9CB2-735E-6F6A-E38B-08CD6BF27B12</attributeRef>
+<attributeRef>FF75421E-8692-B4B9-1C16-4582AF3A1BE5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
