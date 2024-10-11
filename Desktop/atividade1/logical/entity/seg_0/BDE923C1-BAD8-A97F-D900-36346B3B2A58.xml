@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BDE923C1-BAD8-A97F-D900-36346B3B2A58" name="BIBLIOTECA">
+<createdBy>mateu</createdBy>
+<createdTime>2024-09-29 22:57:35 UTC</createdTime>
+<ownerDesignName>atividade1</ownerDesignName>
+<engineerTo>
+<item key="D0F51539-F676-30A2-7FDC-513A8A84A4DB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_biblioteca" id="6FBC201C-2A5B-4789-410A-D8DDE51A363C">
+<createdBy>mateu</createdBy>
+<createdTime>2024-09-29 22:58:02 UTC</createdTime>
+<ownerDesignName>atividade1</ownerDesignName>
+<engineerTo>
+<item key="D0F51539-F676-30A2-7FDC-513A8A84A4DB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="5691EBE3-DF50-356E-2CFF-F74CABF62118">
+<createdBy>mateu</createdBy>
+<createdTime>2024-09-29 22:58:07 UTC</createdTime>
+<ownerDesignName>atividade1</ownerDesignName>
+<engineerTo>
+<item key="D0F51539-F676-30A2-7FDC-513A8A84A4DB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="local" id="0B0CCD60-1301-B4DF-BE7B-D3AC4402668E">
+<createdBy>mateu</createdBy>
+<createdTime>2024-09-29 22:58:42 UTC</createdTime>
+<ownerDesignName>atividade1</ownerDesignName>
+<engineerTo>
+<item key="D0F51539-F676-30A2-7FDC-513A8A84A4DB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_universidade" id="1FE51387-C69A-A9EF-EAC4-C852A358EC8A">
+<createdBy>mateu</createdBy>
+<createdTime>2024-09-29 23:18:42 UTC</createdTime>
+<generatorID>E79C3AE5-C7B3-308E-4D3D-1B0EF1AC4353</generatorID>
+<ownerDesignName>atividade1</ownerDesignName>
+<engineerTo>
+<item key="D0F51539-F676-30A2-7FDC-513A8A84A4DB" value="true"/>
+</engineerTo>
+<referedAttribute>446665CD-30D7-5F8C-089D-F85D88C81F0B</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9806511D-230A-FD19-0AE6-D58BE2C596B8" name="Biblioteca PK">
+<createdBy>mateu</createdBy>
+<createdTime>2024-09-29 22:58:06 UTC</createdTime>
+<ownerDesignName>atividade1</ownerDesignName>
+<engineerTo>
+<item key="D0F51539-F676-30A2-7FDC-513A8A84A4DB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6FBC201C-2A5B-4789-410A-D8DDE51A363C</attributeRef>
+<attributeRef>1FE51387-C69A-A9EF-EAC4-C852A358EC8A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
