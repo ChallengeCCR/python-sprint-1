@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9A6F3C75-4630-C1F8-D2E8-ED416FEE6984" name="T_AUMO_CAPACIDADE">
+<createdBy>mateu</createdBy>
+<createdTime>2024-10-29 01:10:34 UTC</createdTime>
+<generatorID>DEAC1733-4B13-7E8D-86E2-1A44FCDCBFCB</generatorID>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_capacidade" id="D51264DB-AD8C-1BDC-C131-14A4E30867A3">
+<createdBy>mateu</createdBy>
+<createdTime>2024-10-29 01:10:34 UTC</createdTime>
+<generatorID>602B4C23-18FE-F84A-4A46-6C063967E633</generatorID>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mx_passageiros" id="703295C0-7405-6468-BB4E-004982D6BA23">
+<createdBy>mateu</createdBy>
+<createdTime>2024-10-29 01:10:34 UTC</createdTime>
+<generatorID>26B3091F-01B4-8443-851A-29D25EA7E557</generatorID>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_AUMO_VAGAO_id_vagao" id="7407CC07-7481-9D3E-F007-DD1E3713A441">
+<createdBy>mateu</createdBy>
+<createdTime>2024-10-29 01:10:34 UTC</createdTime>
+<generatorID>82398BC5-9D47-195A-00F9-2D8B73C49708</generatorID>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4CB9F945-2F2A-610F-8942-F5E7C5A6C6D8" referredColumn="B3F0F5B9-FBEA-7513-6F79-89DAFD021DEF"/>
+</associations>
+</Column>
+<Column name="T_AUMO_ESTACAO_id_estacao" id="22E12FB1-F201-54A2-ED61-C59093487029">
+<createdBy>mateu</createdBy>
+<createdTime>2024-10-29 01:10:34 UTC</createdTime>
+<generatorID>FD872C27-D97B-65B9-BECE-6322DB4A7A9E</generatorID>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9379F0E9-64FE-30F3-01E0-0CB9DC989FED" referredColumn="39587087-1E44-5A41-2FE2-961E2A89FE54"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CBC63921-C81A-F2E4-92B4-09F5429A95B2" name="T_AUMO_CAPACIDADE_PK">
+<createdBy>mateu</createdBy>
+<createdTime>2024-10-29 01:10:34 UTC</createdTime>
+<generatorID>A1E3FE12-1499-654D-B562-443F4DC961DF</generatorID>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D51264DB-AD8C-1BDC-C131-14A4E30867A3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7B8BFDE5-CA60-631E-4677-042962F9A7D2" name="T_AUMO_CAPACIDADE_T_AUMO_VAGAO_FK">
+<createdBy>mateu</createdBy>
+<createdTime>2024-10-29 01:10:34 UTC</createdTime>
+<generatorID>69F48B03-9372-09BD-B6AA-779EB436A5BC</generatorID>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7407CC07-7481-9D3E-F007-DD1E3713A441"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0EDED3E3-F16D-66B7-3B9D-0EEE1F01BBA3" name="T_AUMO_CAPACIDADE_T_AUMO_ESTACAO_FK">
+<createdBy>mateu</createdBy>
+<createdTime>2024-10-29 01:10:34 UTC</createdTime>
+<generatorID>FB5D5EDC-7E54-1D11-91CA-4BF4BFF638E3</generatorID>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="22E12FB1-F201-54A2-ED61-C59093487029"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

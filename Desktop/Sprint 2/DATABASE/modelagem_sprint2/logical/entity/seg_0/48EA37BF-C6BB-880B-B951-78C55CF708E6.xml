@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="48EA37BF-C6BB-880B-B951-78C55CF708E6" name="T_AUMO_NOTIFICACAO">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-28 13:07:11 UTC</createdTime>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<engineerTo>
+<item key="63339457-04F5-9529-FA3B-065D5E97A86D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_notificacao" id="C0B3C63D-9A6E-A021-0616-22E612FCA400">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-28 13:07:19 UTC</createdTime>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<engineerTo>
+<item key="63339457-04F5-9529-FA3B-065D5E97A86D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ms_notificacao" id="AA1AC5DD-F3E6-E044-AAAD-2D737B2A709D">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-28 13:07:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[Essa é a mensagem que a notificação exibirá]]></commentInRDBMS>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<engineerTo>
+<item key="63339457-04F5-9529-FA3B-065D5E97A86D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>160</dataTypeSize>
+<ownDataTypeParameters>160,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_alerta" id="4306234D-0955-7651-1A87-45235708807A">
+<createdBy>mateu</createdBy>
+<createdTime>2024-10-29 01:03:52 UTC</createdTime>
+<generatorID>25D58903-6D47-39CD-31B2-98E5DE401F1C</generatorID>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<engineerTo>
+<item key="63339457-04F5-9529-FA3B-065D5E97A86D" value="true"/>
+</engineerTo>
+<referedAttribute>7B983158-B6DD-5EA1-668D-865A368B79C6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_usuario" id="EAFF72BA-E8DC-EBC0-B141-467CD0A1B3D3">
+<createdBy>mateu</createdBy>
+<createdTime>2024-10-29 01:04:27 UTC</createdTime>
+<generatorID>4E16583C-5895-2D00-540D-31E86B013696</generatorID>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<engineerTo>
+<item key="63339457-04F5-9529-FA3B-065D5E97A86D" value="true"/>
+</engineerTo>
+<referedAttribute>DEF9AB89-016C-B224-C828-5D5C61E945CB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B6FFCB7B-7A96-AC2A-FFAF-307DAAF6CD4D" name="T_AUMO_NOTIFICACAO PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-28 13:07:29 UTC</createdTime>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<engineerTo>
+<item key="63339457-04F5-9529-FA3B-065D5E97A86D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C0B3C63D-9A6E-A021-0616-22E612FCA400</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_9" directorySegmentName="seg_0" id="6EC25164-5010-D9D7-19BE-FFB0875899EF">
+<createdBy>mateu</createdBy>
+<createdTime>2024-10-29 00:58:09 UTC</createdTime>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<engineerTo>
+<item key="63339457-04F5-9529-FA3B-065D5E97A86D" value="true"/>
+</engineerTo>
+<sourcePk>B506811D-C508-9D86-462E-38EB8728EBFD</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B6DD8581-F53F-8832-77C0-C007CEDEC60C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9CD53DD7-A4AC-6EDE-28BF-30F443A74E52</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

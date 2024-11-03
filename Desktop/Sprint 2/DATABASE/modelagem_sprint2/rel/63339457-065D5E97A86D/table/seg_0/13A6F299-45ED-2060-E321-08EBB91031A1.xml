@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="13A6F299-45ED-2060-E321-08EBB91031A1" name="T_AUMO_NOTIFICACAO">
+<createdBy>mateu</createdBy>
+<createdTime>2024-10-29 01:10:34 UTC</createdTime>
+<generatorID>48EA37BF-C6BB-880B-B951-78C55CF708E6</generatorID>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_notificacao" id="2322C463-A413-9378-3D55-E304B8ED142D">
+<createdBy>mateu</createdBy>
+<createdTime>2024-10-29 01:10:34 UTC</createdTime>
+<generatorID>C0B3C63D-9A6E-A021-0616-22E612FCA400</generatorID>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ms_notificacao" id="A97E444B-0618-AA45-B4D2-0CF684D3796A">
+<createdBy>mateu</createdBy>
+<createdTime>2024-10-29 01:10:34 UTC</createdTime>
+<commentInRDBMS><![CDATA[Essa é a mensagem que a notificação exibirá]]></commentInRDBMS>
+<generatorID>AA1AC5DD-F3E6-E044-AAAD-2D737B2A709D</generatorID>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>160</dataTypeSize>
+<ownDataTypeParameters>160,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_AUMO_ALERTA_id_alerta" id="13FD25DE-44D0-6D86-4CDB-E10149EB12F3">
+<createdBy>mateu</createdBy>
+<createdTime>2024-10-29 01:10:34 UTC</createdTime>
+<generatorID>4306234D-0955-7651-1A87-45235708807A</generatorID>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F826CB74-8710-75DF-A645-F7B5A93A19A7" referredColumn="875160CD-8ED0-3E4A-04D5-A59EE18FC3A7"/>
+</associations>
+</Column>
+<Column name="T_AUMO_USUARIO_id_usuario" id="F0D669EB-CAA5-B500-AF16-D76F849C5330">
+<createdBy>mateu</createdBy>
+<createdTime>2024-10-29 01:10:34 UTC</createdTime>
+<generatorID>EAFF72BA-E8DC-EBC0-B141-467CD0A1B3D3</generatorID>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4E95FA52-F240-0EA9-0A6D-696680B3B263" referredColumn="122742B8-E37F-C876-935E-054052EDDE79"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="07C1CFE3-1E0A-F2F0-3EA8-4346E76B0F31" name="T_AUMO_NOTIFICACAO_PK">
+<createdBy>mateu</createdBy>
+<createdTime>2024-10-29 01:10:34 UTC</createdTime>
+<generatorID>B6FFCB7B-7A96-AC2A-FFAF-307DAAF6CD4D</generatorID>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2322C463-A413-9378-3D55-E304B8ED142D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D85D70F7-18BC-2C81-6955-60EDC2540F43" name="T_AUMO_NOTIFICACAO_T_AUMO_ALERTA_FK">
+<createdBy>mateu</createdBy>
+<createdTime>2024-10-29 01:10:34 UTC</createdTime>
+<generatorID>25D58903-6D47-39CD-31B2-98E5DE401F1C</generatorID>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="13FD25DE-44D0-6D86-4CDB-E10149EB12F3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D2789763-5D17-B63D-DCFF-E46DCFEB7C78" name="T_AUMO_NOTIFICACAO_T_AUMO_USUARIO_FK">
+<createdBy>mateu</createdBy>
+<createdTime>2024-10-29 01:10:34 UTC</createdTime>
+<generatorID>4E16583C-5895-2D00-540D-31E86B013696</generatorID>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F0D669EB-CAA5-B500-AF16-D76F849C5330"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

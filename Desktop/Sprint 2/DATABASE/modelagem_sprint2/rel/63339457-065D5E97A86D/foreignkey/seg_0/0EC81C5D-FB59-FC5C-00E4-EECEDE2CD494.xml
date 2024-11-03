@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0EC81C5D-FB59-FC5C-00E4-EECEDE2CD494" containerWithKeyObject="594E44E9-7533-311C-AF47-362CB078B724" localFKIndex="FB994B4D-CE9A-C037-12B9-67A466DF7779" name="T_AUMO_ESTACAO_T_AUMO_LINHA_FK">
+<createdBy>mateu</createdBy>
+<createdTime>2024-10-29 01:10:34 UTC</createdTime>
+<generatorID>DDFE1F30-9AF4-9F18-5BDD-DCEE59A328CC</generatorID>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<referredTableLongName>T_AUMO_LINHA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>11C93A2E-37B9-9F3A-1F4D-F33188375FA1</referredTableID>
+<keyObject>0DA91DA0-52EF-37AC-2350-7D748EFA1E34</keyObject>
+<referredKeyID>0DA91DA0-52EF-37AC-2350-7D748EFA1E34</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_linha</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AA5C52FF-B1C7-569D-FB47-404CE8DBE4EB" name="T_AUMO_ALERTA_RESOLVIDO">
+<createdBy>mateu</createdBy>
+<createdTime>2024-10-29 01:10:34 UTC</createdTime>
+<generatorID>C570ED53-F4F4-51EC-802F-66BE073F05E8</generatorID>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_alerta_resolvido" id="F7BC0C2E-68BF-48E2-56ED-532E5867A28C">
+<createdBy>mateu</createdBy>
+<createdTime>2024-10-29 01:10:34 UTC</createdTime>
+<generatorID>CDE195BF-EA2B-9504-68DE-080356308E84</generatorID>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_solucao" id="9E504190-B66B-1934-DD03-4933B505E586">
+<createdBy>mateu</createdBy>
+<createdTime>2024-10-29 01:10:34 UTC</createdTime>
+<generatorID>CF921ADE-CB32-8792-DD5C-9357E990DF8D</generatorID>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="comentario_solucao" id="90C28C99-EED0-20A2-BD5E-05727520041F">
+<createdBy>mateu</createdBy>
+<createdTime>2024-10-29 01:10:34 UTC</createdTime>
+<generatorID>7975FA5A-A400-48E8-2A18-28A1F93CF6A4</generatorID>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>160</dataTypeSize>
+<ownDataTypeParameters>160,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_AUMO_ALERTA_id_alerta" id="42B94356-AD7D-4DD6-C5F1-6601FC40E225">
+<createdBy>mateu</createdBy>
+<createdTime>2024-10-29 01:10:34 UTC</createdTime>
+<generatorID>3FA9F70B-19BE-E3C0-BA36-7E33325908CB</generatorID>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D6ADDA0B-4095-6226-2CF9-16BFBA29F83D" referredColumn="875160CD-8ED0-3E4A-04D5-A59EE18FC3A7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5E797CF4-7A72-80C6-DE41-9165F089F0D5" name="T_AUMO_ALERTA_RESOLVIDO_PK">
+<createdBy>mateu</createdBy>
+<createdTime>2024-10-29 01:10:34 UTC</createdTime>
+<generatorID>D047A971-5BC1-A649-C82C-73FCD0FBABB0</generatorID>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F7BC0C2E-68BF-48E2-56ED-532E5867A28C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1E193934-A593-B876-6911-673A4E55BB72" name="T_AUMO_ALERTA_RESOLVIDO_T_AUMO_ALERTA_FK">
+<createdBy>mateu</createdBy>
+<createdTime>2024-10-29 01:10:34 UTC</createdTime>
+<generatorID>D7AC5939-749F-C43D-D09A-823C988807B5</generatorID>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="42B94356-AD7D-4DD6-C5F1-6601FC40E225"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

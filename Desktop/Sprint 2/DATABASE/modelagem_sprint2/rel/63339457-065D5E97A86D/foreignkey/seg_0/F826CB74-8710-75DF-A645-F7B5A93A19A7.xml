@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F826CB74-8710-75DF-A645-F7B5A93A19A7" containerWithKeyObject="13A6F299-45ED-2060-E321-08EBB91031A1" localFKIndex="D85D70F7-18BC-2C81-6955-60EDC2540F43" name="T_AUMO_NOTIFICACAO_T_AUMO_ALERTA_FK">
+<createdBy>mateu</createdBy>
+<createdTime>2024-10-29 01:10:34 UTC</createdTime>
+<generatorID>25D58903-6D47-39CD-31B2-98E5DE401F1C</generatorID>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<referredTableLongName>T_AUMO_ALERTA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D5AD7609-AD08-BEBB-CF03-77FE2AB54991</referredTableID>
+<keyObject>0FF977E8-B55B-54CE-739A-C4102E6AF60C</keyObject>
+<referredKeyID>0FF977E8-B55B-54CE-739A-C4102E6AF60C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_alerta</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

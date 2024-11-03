@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DEAC1733-4B13-7E8D-86E2-1A44FCDCBFCB" name="T_AUMO_CAPACIDADE">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-28 12:50:06 UTC</createdTime>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<engineerTo>
+<item key="63339457-04F5-9529-FA3B-065D5E97A86D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_capacidade" id="602B4C23-18FE-F84A-4A46-6C063967E633">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-28 12:50:12 UTC</createdTime>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<engineerTo>
+<item key="63339457-04F5-9529-FA3B-065D5E97A86D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="mx_passageiros" id="26B3091F-01B4-8443-851A-29D25EA7E557">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-28 12:50:24 UTC</createdTime>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<engineerTo>
+<item key="63339457-04F5-9529-FA3B-065D5E97A86D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_vagao" id="82398BC5-9D47-195A-00F9-2D8B73C49708">
+<createdBy>mateu</createdBy>
+<createdTime>2024-10-29 00:57:11 UTC</createdTime>
+<generatorID>69F48B03-9372-09BD-B6AA-779EB436A5BC</generatorID>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<engineerTo>
+<item key="63339457-04F5-9529-FA3B-065D5E97A86D" value="true"/>
+</engineerTo>
+<referedAttribute>4BC1FE5A-1164-150C-65B7-2B4F5B2F7466</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_estacao" id="FD872C27-D97B-65B9-BECE-6322DB4A7A9E">
+<createdBy>mateu</createdBy>
+<createdTime>2024-10-29 00:57:19 UTC</createdTime>
+<generatorID>FB5D5EDC-7E54-1D11-91CA-4BF4BFF638E3</generatorID>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<engineerTo>
+<item key="63339457-04F5-9529-FA3B-065D5E97A86D" value="true"/>
+</engineerTo>
+<referedAttribute>5B745506-2C0E-31A8-6779-2F0BDF1EB8B4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A1E3FE12-1499-654D-B562-443F4DC961DF" name="T_ARMO_CAPACIDADE PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-28 12:50:23 UTC</createdTime>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<engineerTo>
+<item key="63339457-04F5-9529-FA3B-065D5E97A86D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>602B4C23-18FE-F84A-4A46-6C063967E633</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

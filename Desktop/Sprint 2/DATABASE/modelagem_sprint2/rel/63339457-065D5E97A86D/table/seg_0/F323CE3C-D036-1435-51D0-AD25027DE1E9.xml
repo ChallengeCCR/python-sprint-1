@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F323CE3C-D036-1435-51D0-AD25027DE1E9" name="T_AUMO_LOGIN">
+<createdBy>mateu</createdBy>
+<createdTime>2024-10-29 01:10:34 UTC</createdTime>
+<generatorID>D5DB8FF3-A7CE-8246-ADA3-38611D386F42</generatorID>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_login" id="227E6D90-0CE8-9531-5EF5-FCFFB0688AAE">
+<createdBy>mateu</createdBy>
+<createdTime>2024-10-29 01:10:34 UTC</createdTime>
+<generatorID>1D395C5E-139C-EE7F-9B42-096056E5B960</generatorID>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="CB5D14CF-7E53-D326-3BE2-787BD66FC12C">
+<createdBy>mateu</createdBy>
+<createdTime>2024-10-29 01:10:34 UTC</createdTime>
+<generatorID>40019F4B-454D-9C80-9B74-896364504BC6</generatorID>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="senha" id="1047BAFA-E856-DE3B-D7A0-355DAC2C8878">
+<createdBy>mateu</createdBy>
+<createdTime>2024-10-29 01:10:34 UTC</createdTime>
+<generatorID>E60630CC-4841-FCE2-AE0F-3F0BB5E1DFD7</generatorID>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_AUMO_USUARIO_id_usuario" id="1B159356-9EEA-21B5-5437-4A570525EA6F">
+<createdBy>mateu</createdBy>
+<createdTime>2024-10-29 01:10:34 UTC</createdTime>
+<generatorID>433BD6EB-B9ED-D58E-A53C-69EC8C0414A8</generatorID>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3491641B-9D21-E109-BE1A-FC5EF1181BD3" referredColumn="122742B8-E37F-C876-935E-054052EDDE79"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2E3C9683-CA4A-7EEE-C7FF-757B15F3D9C0" name="T_AUMO_LOGIN_PK">
+<createdBy>mateu</createdBy>
+<createdTime>2024-10-29 01:10:34 UTC</createdTime>
+<generatorID>F39CCC4B-EB1A-5891-C222-3ED122C7B7EE</generatorID>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="227E6D90-0CE8-9531-5EF5-FCFFB0688AAE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FBD6A742-FA72-54DE-F4D2-A2A0065046B9" name="T_AUMO_LOGIN__IDX">
+<createdBy>mateu</createdBy>
+<createdTime>2024-10-29 01:10:34 UTC</createdTime>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>02F4A1AF-074D-796A-CBD2-EA78E2905A1C</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="1B159356-9EEA-21B5-5437-4A570525EA6F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="83E3F85A-2A8D-A8CB-38D3-DA61A867B9D2" name="T_AUMO_LOGIN_T_AUMO_USUARIO_FK">
+<createdBy>mateu</createdBy>
+<createdTime>2024-10-29 01:10:34 UTC</createdTime>
+<generatorID>02F4A1AF-074D-796A-CBD2-EA78E2905A1C</generatorID>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1B159356-9EEA-21B5-5437-4A570525EA6F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

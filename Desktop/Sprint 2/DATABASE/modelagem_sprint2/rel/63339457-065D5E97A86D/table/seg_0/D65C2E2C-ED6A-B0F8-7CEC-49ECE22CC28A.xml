@@ -1,0 +1,137 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D65C2E2C-ED6A-B0F8-7CEC-49ECE22CC28A" name="T_AUMO_OPERACAO">
+<createdBy>mateu</createdBy>
+<createdTime>2024-10-29 01:10:34 UTC</createdTime>
+<generatorID>349AED20-C0A5-3196-0DF6-1D651E99F6F3</generatorID>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_operacao" id="65B8EDA0-4000-13FE-588A-11B5FEC1AE49">
+<createdBy>mateu</createdBy>
+<createdTime>2024-10-29 01:10:34 UTC</createdTime>
+<generatorID>1CF635D2-81F0-75CB-22E7-D5C28FF3D454</generatorID>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hr_inicio" id="2536C3B9-3999-B7B9-3FEE-D39117835619">
+<createdBy>mateu</createdBy>
+<createdTime>2024-10-29 01:10:34 UTC</createdTime>
+<generatorID>1FA05A0F-6783-876A-31B7-05E70AC9B855</generatorID>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hr_termino" id="9FCE4953-F6F4-DE36-9251-2CF98898BFFD">
+<createdBy>mateu</createdBy>
+<createdTime>2024-10-29 01:10:34 UTC</createdTime>
+<generatorID>1DD9BE6A-5FC3-D1A1-5CDB-29DA7EADC112</generatorID>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_AUMO_LINHA_id_linha" id="325C79A0-4A9E-EBED-B518-D500FA05F67F">
+<createdBy>mateu</createdBy>
+<createdTime>2024-10-29 01:10:34 UTC</createdTime>
+<generatorID>2585DB53-5916-4F61-2CF5-1F5D2FF948C6</generatorID>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="233FE23A-D51C-B972-83D2-3D45C58A6780" referredColumn="65DC5317-6998-5BDF-A021-8DC023449468"/>
+</associations>
+</Column>
+<Column name="T_AUMO_ESTACAO_id_estacao" id="35DB56DA-71E6-8E6F-BDF7-09159C13697A">
+<createdBy>mateu</createdBy>
+<createdTime>2024-10-29 01:10:34 UTC</createdTime>
+<generatorID>AD8BF253-B1A0-3397-3E98-FDEB2CBC9E76</generatorID>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B70939FC-E4DD-51DB-7EE4-121F6C75B8FA" referredColumn="39587087-1E44-5A41-2FE2-961E2A89FE54"/>
+</associations>
+</Column>
+<Column name="T_AUMO_TREM_id_trem" id="517E55ED-8B8C-F6A8-984D-A065F9B49337">
+<createdBy>mateu</createdBy>
+<createdTime>2024-10-29 01:10:34 UTC</createdTime>
+<generatorID>DBFC1FD4-100F-BA0F-EE58-CB93B6A670EC</generatorID>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F7F0640B-6355-DB31-A3E5-87EC4D210C29" referredColumn="8ADC5385-A254-A275-E2D5-7E353BAA751E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FCB55F4D-BF9B-369E-ADBE-0C47EAE22360" name="T_AUMO_OPERACAO_PK">
+<createdBy>mateu</createdBy>
+<createdTime>2024-10-29 01:10:34 UTC</createdTime>
+<generatorID>8FAB1690-3CA4-065F-9B13-18463073441D</generatorID>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="65B8EDA0-4000-13FE-588A-11B5FEC1AE49"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="824788F1-ECF1-1F91-C62C-98D6808BF08F" name="T_AUMO_OPERACAO_T_AUMO_LINHA_FK">
+<createdBy>mateu</createdBy>
+<createdTime>2024-10-29 01:10:34 UTC</createdTime>
+<generatorID>AB6125CC-CF26-5B72-0ACC-18018739C20F</generatorID>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="325C79A0-4A9E-EBED-B518-D500FA05F67F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2EE7084C-C75B-1843-7A11-EAD45621B98E" name="T_AUMO_OPERACAO_T_AUMO_ESTACAO_FK">
+<createdBy>mateu</createdBy>
+<createdTime>2024-10-29 01:10:34 UTC</createdTime>
+<generatorID>7C65A403-CAD7-EDDD-3CF8-548FA8298DD2</generatorID>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="35DB56DA-71E6-8E6F-BDF7-09159C13697A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8F54461C-3655-B0EE-ABCC-E04D2AE17EE3" name="T_AUMO_OPERACAO_T_AUMO_TREM_FK">
+<createdBy>mateu</createdBy>
+<createdTime>2024-10-29 01:10:34 UTC</createdTime>
+<generatorID>34DD4767-E147-6275-0B10-B940BDC74DCE</generatorID>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="517E55ED-8B8C-F6A8-984D-A065F9B49337"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

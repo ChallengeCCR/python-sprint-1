@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3491641B-9D21-E109-BE1A-FC5EF1181BD3" containerWithKeyObject="F323CE3C-D036-1435-51D0-AD25027DE1E9" localFKIndex="83E3F85A-2A8D-A8CB-38D3-DA61A867B9D2" name="T_AUMO_LOGIN_T_AUMO_USUARIO_FK">
+<createdBy>mateu</createdBy>
+<createdTime>2024-10-29 01:10:34 UTC</createdTime>
+<generatorID>02F4A1AF-074D-796A-CBD2-EA78E2905A1C</generatorID>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<referredTableLongName>T_AUMO_USUARIO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3848F97E-C7F2-C807-F10B-15BB109786F6</referredTableID>
+<keyObject>E0F34120-DB24-D2C9-04B1-0F87DBCC6F15</keyObject>
+<referredKeyID>E0F34120-DB24-D2C9-04B1-0F87DBCC6F15</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_usuario</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

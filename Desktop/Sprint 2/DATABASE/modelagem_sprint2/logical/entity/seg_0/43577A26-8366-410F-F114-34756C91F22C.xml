@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="43577A26-8366-410F-F114-34756C91F22C" name="T_AUMO_MANUTENCAO">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-28 12:51:55 UTC</createdTime>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<engineerTo>
+<item key="63339457-04F5-9529-FA3B-065D5E97A86D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_manutencao" id="3F795BB8-D2AF-6F6D-9F38-67506F7AFDEE">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-28 12:52:05 UTC</createdTime>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<engineerTo>
+<item key="63339457-04F5-9529-FA3B-065D5E97A86D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tp_manutencao" id="AEA09338-415B-AEEA-4C43-68F502455409">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-28 12:52:13 UTC</createdTime>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<engineerTo>
+<item key="63339457-04F5-9529-FA3B-065D5E97A86D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_manutencao" id="9A010ADD-BF3B-F1F0-053A-EE4464F1E08C">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-28 12:53:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Descrição da manutenção]]></commentInRDBMS>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<engineerTo>
+<item key="63339457-04F5-9529-FA3B-065D5E97A86D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>160</dataTypeSize>
+<ownDataTypeParameters>160,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_manutencao" id="FB8BABF9-0EE1-CA4A-0F90-BD28E82B6AC5">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-28 12:54:03 UTC</createdTime>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<engineerTo>
+<item key="63339457-04F5-9529-FA3B-065D5E97A86D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tecnico_responsavel" id="6253E37D-B1E3-F24E-3421-07E69EA1A66C">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-28 12:52:42 UTC</createdTime>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<engineerTo>
+<item key="63339457-04F5-9529-FA3B-065D5E97A86D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_infraestrutura" id="8D44828F-AF7C-0992-139D-399E76E69D65">
+<createdBy>mateu</createdBy>
+<createdTime>2024-10-29 00:59:37 UTC</createdTime>
+<generatorID>C9BE6B02-EE84-D58C-0141-5B84627B58D3</generatorID>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<engineerTo>
+<item key="63339457-04F5-9529-FA3B-065D5E97A86D" value="true"/>
+</engineerTo>
+<referedAttribute>A67B3E86-3BB6-DAE6-682A-79128D69E19A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EDFE3F43-AF76-9662-3BFC-D78CCF3000F6" name="T_AUMO_MANUTENCAO PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-28 12:52:12 UTC</createdTime>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="63339457-04F5-9529-FA3B-065D5E97A86D" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3F795BB8-D2AF-6F6D-9F38-67506F7AFDEE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C570ED53-F4F4-51EC-802F-66BE073F05E8" name="T_AUMO_ALERTA_RESOLVIDO">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-28 13:09:22 UTC</createdTime>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<engineerTo>
+<item key="63339457-04F5-9529-FA3B-065D5E97A86D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_alerta_resolvido" id="CDE195BF-EA2B-9504-68DE-080356308E84">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-28 13:09:34 UTC</createdTime>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<engineerTo>
+<item key="63339457-04F5-9529-FA3B-065D5E97A86D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_solucao" id="CF921ADE-CB32-8792-DD5C-9357E990DF8D">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-28 13:10:31 UTC</createdTime>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<engineerTo>
+<item key="63339457-04F5-9529-FA3B-065D5E97A86D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="comentario_solucao" id="7975FA5A-A400-48E8-2A18-28A1F93CF6A4">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-28 13:10:56 UTC</createdTime>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<engineerTo>
+<item key="63339457-04F5-9529-FA3B-065D5E97A86D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>160</dataTypeSize>
+<ownDataTypeParameters>160,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_alerta" id="3FA9F70B-19BE-E3C0-BA36-7E33325908CB">
+<createdBy>mateu</createdBy>
+<createdTime>2024-10-29 01:04:54 UTC</createdTime>
+<generatorID>D7AC5939-749F-C43D-D09A-823C988807B5</generatorID>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<engineerTo>
+<item key="63339457-04F5-9529-FA3B-065D5E97A86D" value="true"/>
+</engineerTo>
+<referedAttribute>7B983158-B6DD-5EA1-668D-865A368B79C6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D047A971-5BC1-A649-C82C-73FCD0FBABB0" name="T_ALERTA_RESOLVIDO PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-28 13:09:45 UTC</createdTime>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="63339457-04F5-9529-FA3B-065D5E97A86D" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CDE195BF-EA2B-9504-68DE-080356308E84</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

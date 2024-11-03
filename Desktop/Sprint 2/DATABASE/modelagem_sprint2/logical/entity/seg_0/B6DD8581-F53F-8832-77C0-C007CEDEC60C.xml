@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B6DD8581-F53F-8832-77C0-C007CEDEC60C" name="T_AUMO_VAGAO">
+<createdBy>mateu</createdBy>
+<createdTime>2024-10-29 00:55:01 UTC</createdTime>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<engineerTo>
+<item key="63339457-04F5-9529-FA3B-065D5E97A86D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_vagao" id="4BC1FE5A-1164-150C-65B7-2B4F5B2F7466">
+<createdBy>mateu</createdBy>
+<createdTime>2024-10-29 00:55:11 UTC</createdTime>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<engineerTo>
+<item key="63339457-04F5-9529-FA3B-065D5E97A86D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_portas" id="8A36934F-8593-5921-1B5F-D0613E01D5DC">
+<createdBy>mateu</createdBy>
+<createdTime>2024-10-29 00:55:20 UTC</createdTime>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<engineerTo>
+<item key="63339457-04F5-9529-FA3B-065D5E97A86D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_vagao" id="1227A7ED-D740-8A2A-182A-05DA5F4EED33">
+<createdBy>mateu</createdBy>
+<createdTime>2024-10-29 00:55:33 UTC</createdTime>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<engineerTo>
+<item key="63339457-04F5-9529-FA3B-065D5E97A86D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_trem" id="CFBD2A7F-DF55-E0B1-D786-7C1C73523DB4">
+<createdBy>mateu</createdBy>
+<createdTime>2024-10-29 00:56:54 UTC</createdTime>
+<generatorID>A7429780-EDB2-B155-9E51-7E54BC97F6DB</generatorID>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<engineerTo>
+<item key="63339457-04F5-9529-FA3B-065D5E97A86D" value="true"/>
+</engineerTo>
+<referedAttribute>C3545DC0-12D7-3191-1474-0134671C0089</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B506811D-C508-9D86-462E-38EB8728EBFD" name="T_AUMO_VAGAO PK">
+<createdBy>mateu</createdBy>
+<createdTime>2024-10-29 00:55:19 UTC</createdTime>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="63339457-04F5-9529-FA3B-065D5E97A86D" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4BC1FE5A-1164-150C-65B7-2B4F5B2F7466</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

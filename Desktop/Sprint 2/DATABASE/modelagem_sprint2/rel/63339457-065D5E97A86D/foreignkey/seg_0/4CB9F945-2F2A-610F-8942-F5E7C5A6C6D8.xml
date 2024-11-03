@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4CB9F945-2F2A-610F-8942-F5E7C5A6C6D8" containerWithKeyObject="9A6F3C75-4630-C1F8-D2E8-ED416FEE6984" localFKIndex="7B8BFDE5-CA60-631E-4677-042962F9A7D2" name="T_AUMO_CAPACIDADE_T_AUMO_VAGAO_FK">
+<createdBy>mateu</createdBy>
+<createdTime>2024-10-29 01:10:34 UTC</createdTime>
+<generatorID>69F48B03-9372-09BD-B6AA-779EB436A5BC</generatorID>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<referredTableLongName>T_AUMO_VAGAO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>43A64226-3FAE-4803-5C51-B908EFECDCF1</referredTableID>
+<keyObject>B186BCFE-02C7-1546-F368-AF789AF5F1AE</keyObject>
+<referredKeyID>B186BCFE-02C7-1546-F368-AF789AF5F1AE</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_vagao</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,139 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A7E32FFA-0C04-816E-ACFA-B082C7DBF042" name="T_AUMO_INFRAESTRUTURA">
+<createdBy>mateu</createdBy>
+<createdTime>2024-10-29 01:10:34 UTC</createdTime>
+<generatorID>9CD53DD7-A4AC-6EDE-28BF-30F443A74E52</generatorID>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_infraestrutura" id="5FCF335C-3CC3-C17B-5EDB-9C535914514A">
+<createdBy>mateu</createdBy>
+<createdTime>2024-10-29 01:10:34 UTC</createdTime>
+<generatorID>A67B3E86-3BB6-DAE6-682A-79128D69E19A</generatorID>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tp_infraestrutura" id="96488BE8-EA51-3571-CCE6-C394EFE662D7">
+<createdBy>mateu</createdBy>
+<createdTime>2024-10-29 01:10:34 UTC</createdTime>
+<generatorID>959CD12C-9226-F003-36CD-91E807F42B2A</generatorID>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado_conservacao" id="8AA18AF3-01A0-1457-2060-B105BB13C744">
+<createdBy>mateu</createdBy>
+<createdTime>2024-10-29 01:10:34 UTC</createdTime>
+<generatorID>80EB0BCF-7EDE-7E3B-631C-FF10304B46CB</generatorID>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_AUMO_LINHA_id_linha" id="46B4301D-3047-4941-4DC0-38E6802EDC7F">
+<createdBy>mateu</createdBy>
+<createdTime>2024-10-29 01:10:34 UTC</createdTime>
+<generatorID>395A8A79-FE5F-1C46-8F6C-14827CCED6BA</generatorID>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FD9A177C-9334-0608-2137-9FE542E425AC" referredColumn="65DC5317-6998-5BDF-A021-8DC023449468"/>
+</associations>
+</Column>
+<Column name="T_AUMO_ESTACAO_id_estacao" id="FEF0F423-A242-7637-5968-A8CB5435CBAA">
+<createdBy>mateu</createdBy>
+<createdTime>2024-10-29 01:10:34 UTC</createdTime>
+<generatorID>E9A3AB59-CEB0-3F80-9731-8813CC0A6DBB</generatorID>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="779AFBC4-D07F-7DFE-DE92-CEEE3C05A506" referredColumn="39587087-1E44-5A41-2FE2-961E2A89FE54"/>
+</associations>
+</Column>
+<Column name="T_AUMO_VAGAO_id_vagao" id="36CBDEA6-EF57-2048-C64C-8FF00FCF37EF">
+<createdBy>mateu</createdBy>
+<createdTime>2024-10-29 01:10:34 UTC</createdTime>
+<generatorID>A2B22296-7AA4-AA1C-BE27-E38760AB9543</generatorID>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="29E25081-C494-4F1E-443B-34EC12D94C5D" referredColumn="B3F0F5B9-FBEA-7513-6F79-89DAFD021DEF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="31C8BB22-2B2F-C6FC-A3DA-155BE2973757" name="T_AUMO_INFRAESTRUTURA_PK">
+<createdBy>mateu</createdBy>
+<createdTime>2024-10-29 01:10:34 UTC</createdTime>
+<generatorID>4EC5207E-1FB9-95A4-004D-927924833466</generatorID>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5FCF335C-3CC3-C17B-5EDB-9C535914514A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="551BCDDD-F258-8B64-BEA1-F180B73B79BD" name="T_AUMO_INFRAESTRUTURA_T_AUMO_LINHA_FK">
+<createdBy>mateu</createdBy>
+<createdTime>2024-10-29 01:10:34 UTC</createdTime>
+<generatorID>66764689-6CBB-EFD0-F6AE-100CD37E229E</generatorID>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="46B4301D-3047-4941-4DC0-38E6802EDC7F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3F06BA31-B993-A11E-D4CE-96D9128C4FD7" name="T_AUMO_INFRAESTRUTURA_T_AUMO_ESTACAO_FK">
+<createdBy>mateu</createdBy>
+<createdTime>2024-10-29 01:10:34 UTC</createdTime>
+<generatorID>DEAC39C7-2886-45C8-A088-27FFC6114FA2</generatorID>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FEF0F423-A242-7637-5968-A8CB5435CBAA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D6299ACA-C072-EC66-986E-792E99614E1E" name="T_AUMO_INFRAESTRUTURA_T_AUMO_VAGAO_FK">
+<createdBy>mateu</createdBy>
+<createdTime>2024-10-29 01:10:34 UTC</createdTime>
+<generatorID>6EC25164-5010-D9D7-19BE-FFB0875899EF</generatorID>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="36CBDEA6-EF57-2048-C64C-8FF00FCF37EF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

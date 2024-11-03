@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="modelagem_sprint2" id="D13DDAE5-9125-B923-4AA3-CB0AF5E9C56B" version="3.5">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-28 12:40:06 UTC</createdTime>
+<ownerDesignName>sprint2</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>D13DDAE5-9125-B923-4AA3-CB0AF5E9C56B</designId>
+</OSDM_Design>

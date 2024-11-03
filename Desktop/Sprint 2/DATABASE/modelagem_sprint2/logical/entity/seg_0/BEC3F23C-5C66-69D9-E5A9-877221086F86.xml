@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BEC3F23C-5C66-69D9-E5A9-877221086F86" name="T_AUMO_INCIDENTE">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-28 13:01:41 UTC</createdTime>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<engineerTo>
+<item key="63339457-04F5-9529-FA3B-065D5E97A86D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_incidente" id="A9D1836F-5A55-9486-1B6D-6910DA32FBDD">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-28 13:01:51 UTC</createdTime>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<engineerTo>
+<item key="63339457-04F5-9529-FA3B-065D5E97A86D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_ocorrencia" id="9D136CDC-DE85-1282-936F-C63C0776F5C9">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-28 13:02:03 UTC</createdTime>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<engineerTo>
+<item key="63339457-04F5-9529-FA3B-065D5E97A86D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tp_incidente" id="93718B9D-3E14-1BF1-4CD4-5584CD072A1A">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-28 13:02:11 UTC</createdTime>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<engineerTo>
+<item key="63339457-04F5-9529-FA3B-065D5E97A86D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_incidente" id="4C660D92-A2E1-9402-D9B4-6094BB0934B7">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-28 13:02:28 UTC</createdTime>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<engineerTo>
+<item key="63339457-04F5-9529-FA3B-065D5E97A86D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>160</dataTypeSize>
+<ownDataTypeParameters>160,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_infraestrutura" id="FC7BFF58-3DD9-A555-D602-6B80C2904B7C">
+<createdBy>mateu</createdBy>
+<createdTime>2024-10-29 01:01:14 UTC</createdTime>
+<generatorID>246F67C0-A594-0B41-D346-0B4DD77CE91E</generatorID>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<engineerTo>
+<item key="63339457-04F5-9529-FA3B-065D5E97A86D" value="true"/>
+</engineerTo>
+<referedAttribute>A67B3E86-3BB6-DAE6-682A-79128D69E19A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9D6D7060-60CE-D7C6-550F-831EA870E772" name="T_AUMO_INCIDENTE PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-28 13:02:02 UTC</createdTime>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="63339457-04F5-9529-FA3B-065D5E97A86D" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A9D1836F-5A55-9486-1B6D-6910DA32FBDD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

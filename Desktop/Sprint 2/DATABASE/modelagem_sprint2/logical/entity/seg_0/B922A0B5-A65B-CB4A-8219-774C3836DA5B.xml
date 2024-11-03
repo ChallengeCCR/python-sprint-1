@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B922A0B5-A65B-CB4A-8219-774C3836DA5B" name="T_AUMO_ALERTA">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-28 13:03:07 UTC</createdTime>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<engineerTo>
+<item key="63339457-04F5-9529-FA3B-065D5E97A86D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_alerta" id="7B983158-B6DD-5EA1-668D-865A368B79C6">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-28 13:03:11 UTC</createdTime>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<engineerTo>
+<item key="63339457-04F5-9529-FA3B-065D5E97A86D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_alerta" id="3203AF8D-3842-E76B-996D-CACCE10FED5F">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-28 13:03:41 UTC</createdTime>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<engineerTo>
+<item key="63339457-04F5-9529-FA3B-065D5E97A86D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>160</dataTypeSize>
+<ownDataTypeParameters>160,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_alerta" id="03CE58AA-6229-AE59-EB64-2B9A8FA5C26C">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-28 13:04:32 UTC</createdTime>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<engineerTo>
+<item key="63339457-04F5-9529-FA3B-065D5E97A86D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="prioridade_alerta" id="967944E9-C9A9-85D1-DADE-C6141ECFE275">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-28 13:04:05 UTC</createdTime>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<engineerTo>
+<item key="63339457-04F5-9529-FA3B-065D5E97A86D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status_alerta" id="E0B35E48-2BD2-2EF0-C87C-740C24E370E2">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-28 13:11:20 UTC</createdTime>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<engineerTo>
+<item key="63339457-04F5-9529-FA3B-065D5E97A86D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_incidente" id="B00A3F53-ACAD-BF73-B06F-85394AC40599">
+<createdBy>mateu</createdBy>
+<createdTime>2024-10-29 01:02:48 UTC</createdTime>
+<generatorID>4E1C2CA4-9DA6-4FF1-B565-177A3CDC7DA2</generatorID>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<engineerTo>
+<item key="63339457-04F5-9529-FA3B-065D5E97A86D" value="true"/>
+</engineerTo>
+<referedAttribute>A9D1836F-5A55-9486-1B6D-6910DA32FBDD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2EA2B86C-4539-EBD3-A77D-D6DFE77AE38F" name="T_AUMO_ALERTA PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-28 13:03:56 UTC</createdTime>
+<ownerDesignName>modelagem_sprint2</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="63339457-04F5-9529-FA3B-065D5E97A86D" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7B983158-B6DD-5EA1-668D-865A368B79C6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
